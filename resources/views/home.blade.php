@@ -45,6 +45,18 @@
     </table>
 
 @stop
+@section('footer')
+<div class="container">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Disponible en: https://github.com/LuisSantillan28/Veterinaria-Laravel.git</a>
+      </div>
+    </nav>
+  </div>
+@stop
+@section('css')
+    <link rel="stylesheet" href="/css/admin_custom.css">
+@stop
 @section('css')
     <link rel="stylesheet" href="/css/admin_custom.css">
 @stop
